@@ -17,8 +17,6 @@ export default function CreateEvent() {
     console.log("Form submitted")
   }
 
-  
-
   useEffect(() => {
     // disable scroll on <input> elements of type number
     document.addEventListener("wheel", (event) => {
@@ -38,12 +36,12 @@ export default function CreateEvent() {
         />
       </Head>
       <section className="relative py-12">
-    
+
           <h1 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl mb-4">
             Create your virtual event
           </h1>
-        
-     
+
+
           <form
             onSubmit={handleSubmit}
             className="space-y-8 divide-y divide-gray-200"
@@ -216,7 +214,7 @@ export default function CreateEvent() {
               </div>
             </div>
           </form>
-        
+
 
           {/* <section className="flex flex-col items-start py-8">
             <p className="mb-4">Please connect your wallet to create events.</p>
